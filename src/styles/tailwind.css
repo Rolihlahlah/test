@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*------Color variables------*/
+    --black_900: #060606;
+    --black_900_01: #070707;
+    --black_900_02: #000000;
+    --black_900_26: #00000026;
+    --black_900_3f: #0000003f;
+    --black_900_44: #00000044;
+    --blue_gray_300: #a1abbb;
+    --blue_gray_700: #475467;
+    --deep_orange_50: #fbf0ea;
+    --deep_orange_700: #df6015;
+    --deep_orange_700_01: #e06016;
+    --deep_purple_a200: #9747ff;
+    --gray_100: #f3f4f6;
+    --gray_300: #dfe2e6;
+    --gray_50: #f2f6ff;
+    --gray_50_01: #fffbfb;
+    --gray_50_02: #fafafa;
+    --gray_50_03: #fff4f4;
+    --gray_900: #1d1b20;
+    --gray_900_0c: #1018280c;
+    --green_50: #eafdf0;
+    --green_500: #2db85a;
+    --green_500_01: #2bc364;
+    --indigo_a200: #576ae6;
+    --white_a700: #ffffff;
+    --yellow_900: #e57115;
+    --yellow_900_01: #eb8314;
+
+    /*------Shadow variables------*/
+    --shadow-xs: 0 1px 3px 1px #00000026;
+    --shadow-sm: 0 1px 2px 0 #1018280c;
+    --shadow-md: 4px 4px 8px 0 #00000044;
+    --shadow-lg: 0 4px 4px 0 #0000003f;
+
+    /*------Border radius variables------*/
+    --radius-xs: 8px;
+    --radius-sm: 10px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+    --radius-xl: 22px;
+
+    /*------Spacing variables------*/
+    --space-xs: 4px;
+    --space-sm: 10px;
+    --space-md: 12px;
+    --space-lg: 22px;
+  }
+  [type="text"],
+  input:where(:not([type])),
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    appearance: initial;
+    background-color: initial;
+    border: initial;
+    border-width: 0;
+  }
+}
